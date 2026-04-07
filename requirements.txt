@@ -1,0 +1,12 @@
+# Phase II: FastAPI + SQLAlchemy + APScheduler
+fastapi>=0.109.0,<0.116
+uvicorn[standard]>=0.27.0,<0.32
+sqlalchemy>=2.0.25,<2.1
+apscheduler>=3.10.4,<4
+pydantic>=2.5.0,<3
+pydantic-settings>=2.1.0,<3
+httpx>=0.26.0,<0.29
+
+# Dev / tests
+pytest>=8.0.0,<9
+pytest-asyncio>=0.23.0,<0.26
